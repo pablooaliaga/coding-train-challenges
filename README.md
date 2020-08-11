@@ -1,3 +1,7 @@
-# p5.js-templates
+# Coding train Challenges
+Bunch of coding challenges inspired by Coding Train's youtube channel (https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
 
-p5.js templates for ID311 Software Prototyping.
+1. Tic tac toe
+
+
+The base code to run P5 comes from https://github.com/makinteractlab/p5.js-templates
