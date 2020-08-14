@@ -69,6 +69,8 @@ function checkWinner(){
             //diagonal winning
             else if(board[i][j] == currentPlayer && board[i+1][j+1] == currentPlayer && board[i+2][j+2] == currentPlayer){
                 winner_cells = [[i,j],[i+1,j+1],[i+2,j+2]];
+            } else if(board[i+2][j] == currentPlayer && board[i+1][j+1] == currentPlayer && board[i][j+2] == currentPlayer){
+                winner_cells = [[i+2,j],[i+1,j+1],[i,j+2]];
             } else {
                 winner = no_player
             }
