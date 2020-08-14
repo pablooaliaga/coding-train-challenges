@@ -9,6 +9,7 @@ let no_player = 0
 let player1 = 'X';
 let player2 = 'O';
 
+//TODO: Doesn't work with size 5 for instance.
 let size = 3;
 let width = 400;
 
