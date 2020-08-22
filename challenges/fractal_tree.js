@@ -35,6 +35,10 @@ function compute_tree(current_x=0, current_y=0, current_angle=0, lvl = 0){
     compute_tree(end_x,end_y, current_angle+angle, lvl);
     //second branch
     compute_tree(end_x,end_y, current_angle-angle, lvl);
+    //third branch
+    if(random() < 0.7) compute_tree(end_x, end_y, current_angle + (angle/2), lvl);
+    //fourth branch
+    if(random() < 0.7) compute_tree(end_x, end_y, current_angle - (angle/2), lvl);
 }
 
 function draw_lvl(level){
